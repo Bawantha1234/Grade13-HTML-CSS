@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Basics</title>
+</head>
+<body>
+<!--Order List , Unorder List-->
+<ul>
+    <li>
+        Java
+        <ol>
+            <li>Java Basics</li>
+            <li>JavaEE</li>
+            <li>Java Sprint Boot</li>
+            <li>My SQL</li>
+        </ol>
+    </li>
+
+    <li>UI TEchnologies</li>
+    <ol>
+        <li>HTML
+            <ol>
+                <li>Introduction to HTML</li>
+                <li>HTML text Formatting</li>
+                <li>
+                    HTML Multimidia
+                    <ul>
+                        <li>Add Image</li>
+                        <li>Add Videos</li>
+                        <li>Add Audios</li>
+                    </ul>
+                </li>
+                <li>HTML Forms</li>
+                <li>HTML Tables</li>
+            </ol>
+        </li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    </li>
+    <li>
+        AWS and ML
+    </li>
+</ul>
+
+<!--input Types-->
+<form>
+    <label for="name">Name</label><br>
+    <input type="text"id="name"name="name"placeholder="Enter your name">
+    <br><br><br>
+
+    UserName :
+    <input type ="text" name = "User name">
+    <br><br><br>
+
+    Password :
+    <input type = "password" name="pw" maxlength="5">
+    <br><br><br>
+
+    Description :
+    <textarea cols="10" rows="5" name="description">Tell Your Comments here!!</textarea>
+    <br><br><br>
+
+    Please select your favourite Subjects(s) :<br>
+    <input type="checkbox" name="ict" value="yes">ICT<br>
+    <input type="checkbox" name="sft" value="yes">SFT<br>
+    <input type="checkbox" name="e tech" value="">E TECH<br>
+    <br><br><br>
+
+    Gender(M/F) :<br>
+    <input type="radio" name="gender" value="male">Male<br>
+    <input type="radio" name="gender" value="female">Female<br>
+    <br><br><br>
+</form>
+
+<!-- Drop down List-->
+Please select your subjects() :<br>
+<select name="Subjects">
+    <option value="E-Tech">E-TECH</option>
+    <option value="sft">SFT</option>
+    <option value="ict">ICT</option>
+</select>
+<br><br><br>
+
+<!--button types-->
+<input type="submit" name="b1" value="Submit"><br>
+<input type="reset" name="b2" value="Reset"><br>
+<input type="button" name="b3" value="Button"><br>
+<input type="image" name="b4" src="assert/img/sky.jpg" width="50px" height="50px" value="Picture"><br>
+
+
+<!-- Data Grouping-->
+<fieldset>
+    <legend>Contact Details</legend>
+    Name :<br>
+    <input type="text" name="name"><br><br>
+
+    Address :<br>
+    <textarea rows="10" cols="10">Type here!!</textarea><br><br>
+
+    Telephone :<br>
+    <input type="text" name="tel"><br><br>
+
+    <input type="submit" name="b5" value="Submit">
+</fieldset>
+<br><br><br>
+
+<!-- Other -->
+Email : <br>
+<input type="email" name="email"><br><br>
+
+Date : <br>
+<input type="date" name="date"><br><br>
+
+Number :<br>
+<input type="number" name="number"><br><br>
+
+URL :<br>
+<input type="url" name="url"><br><br>
+</body>
+</html>
